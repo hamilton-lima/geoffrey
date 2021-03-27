@@ -17,6 +17,23 @@ services:
       options:
         max-size: "200k"
         max-file: "10"
+
+  database:
+    container_name: geoffrey-db
+    image: mariadb
+    env_file: setup.env
+    volumes:
+      - mariadb-volume:/var/lib/mysql
+      - ./mariadb-setup:/docker-entrypoint-initdb.d
+    restart: always
+    ports:
+      - "3306:3306"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
   
 volumes:
   n8n-volume:
+  mariadb-volume:
