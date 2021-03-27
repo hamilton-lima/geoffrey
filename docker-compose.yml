@@ -1,0 +1,22 @@
+version: "2.2"
+services:
+  n8n:
+    container_name: geoffrey-n8n
+    build:
+      context: n8n
+    image: geoffrey/n8n
+    restart: always
+    env_file: setup.env
+    volumes:
+      - n8n-volume:/home/node/.n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "200k"
+        max-file: "10"
+  
+volumes:
+  n8n-volume:

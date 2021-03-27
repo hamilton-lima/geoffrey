@@ -1,2 +1,23 @@
-# geoffrey
+# Geoffrey
 An automation electronic butler to collect and present data
+
+# Roadmap
+- setup n8n.io
+- setup directus
+- setup mariaDB
+- setup metabase
+- collect sonarcloud metrics and save to mariaDB using directus API
+- collect azuredevops metrics and save to mariaDB using directus API
+- automate mariaDB backup
+- add predefined n8n automations to start package
+- automate n8n workflows backup
+- add main page with link to all the tools, n8n, directus, metabase, list of backups
+
+# References
+- automate workflows and collect data, n8n, https://n8n.io
+- define data structure to be saved, directus, headless CMS https://directus.io
+- create dashboards and query data, metabase, https://www.metabase.com
+- navigate on backup files, file browser https://filebrowser.org
+
+# Why this name?
+Is a reference to "Geoffrey Butler", from the Fresh prince of Bel-Air https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air#Cast_and_characters, a very resourceful butler.
