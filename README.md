@@ -8,6 +8,7 @@ An automation electronic butler to collect and present data
 - setup metabase
 - collect sonarcloud metrics and save to mariaDB using directus API
 - collect azuredevops metrics and save to mariaDB using directus API
+- generate passwords in setup.env and docker-compose.yml
 - automate mariaDB backup
 - add predefined n8n automations to start package
 - automate n8n workflows backup
