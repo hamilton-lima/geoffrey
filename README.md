@@ -2,10 +2,8 @@
 An automation electronic butler to collect and present data
 
 # Roadmap
-- setup n8n.io
-- setup directus
-- setup mariaDB
-- setup metabase
+
+## Todo 
 - collect sonarcloud metrics and save to mariaDB using directus API
 - collect azuredevops metrics and save to mariaDB using directus API
 - generate passwords in setup.env and docker-compose.yml
@@ -13,6 +11,12 @@ An automation electronic butler to collect and present data
 - add predefined n8n automations to start package
 - automate n8n workflows backup
 - add main page with link to all the tools, n8n, directus, metabase, list of backups
+
+## Done 
+- setup n8n.io
+- setup directus
+- setup mariaDB
+- setup metabase
 
 # References
 - automate workflows and collect data, n8n, https://n8n.io
