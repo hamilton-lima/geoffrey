@@ -5,7 +5,9 @@ An automation electronic butler to collect and present data
 
 ## Todo 
 - collect sonarcloud metrics and save to mariaDB using directus API
-- collect azuredevops metrics and save to mariaDB using directus API
+    - see `https://sonarcloud.io/web_api`
+- collect azuredevops metrics and save to mariaDB using directus API, 
+    - see `https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/rest/samples?view=azure-devops`
 - generate passwords in setup.env and docker-compose.yml
 - automate mariaDB backup
 - add predefined n8n automations to start package

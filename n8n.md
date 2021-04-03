@@ -21,3 +21,5 @@ return [ { json: { name: "teste", value: 42 }}];
 ## Debugging HTTP calls 
 use `https://webhook.site/` as target of calls to check the data
 
+## Sample data 
+Use `https://jsonplaceholder.typicode.com/posts?userId=1` to get a list of post from userId 1
