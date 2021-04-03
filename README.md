@@ -12,13 +12,14 @@ An automation electronic butler to collect and present data
 - automate mariaDB backup
 - add predefined n8n automations to start package
 - automate n8n workflows backup
-- add main page with link to all the tools, n8n, directus, metabase, list of backups
+- add link to main page to file browser to see backups
 
 ## Done 
 - setup n8n.io
 - setup directus
 - setup mariaDB
 - setup metabase
+- add main page with link to all the tools, n8n, directus, metabase
 
 # References
 - automate workflows and collect data, n8n, https://n8n.io
