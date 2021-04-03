@@ -66,6 +66,16 @@ services:
       - 3000:3000
     depends_on:
       - database
+    env_file: setup.env  
+    
+  landing:
+    container_name: geoffrey-landing
+    build:
+      context: landing
+    image: geoffrey/landing
+    restart: always       
+    ports:
+      - 80:80
     env_file: setup.env
 
 volumes:
